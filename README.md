@@ -1,19 +1,39 @@
-# 🎈 Blank app template
+# 🧠 AIDIS – AI Diagnostic Imaging System
 
-A simple Streamlit app template for you to modify!
+AIDIS is a prototype system that uses artificial intelligence to **analyze and interpret diagnostic medical images**, like chest X-rays, and output predicted conditions in real time.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+🎯 **Built for the STEEM Grant application**
 
-### How to run it on your own machine
+---
 
-1. Install the requirements
+## 🌐 Live Demo
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+Try the demo here:  
+🔗 [https://jbbassey-aidis-diagnostic-ai-streamlit-app-qnlqza.streamlit.app](https://jbbassey-aidis-diagnostic-ai-streamlit-app-qnlqza.streamlit.app)
 
-2. Run the app
+---
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## 💻 How It Works
+
+- Upload an X-ray image (JPG or PNG)
+- The AI model predicts possible diagnosis (e.g., Pneumonia, No Finding)
+- Displays prediction + confidence level
+
+---
+
+## 🚀 Tech Stack
+
+- `Streamlit` – Frontend demo interface  
+- `PyTorch` – Deep learning framework  
+- `Torchvision` – Pretrained image models  
+- `Pillow` – Image preprocessing
+
+---
+
+## 📂 File Structure
+
+```bash
+aidis-diagnostic-ai/
+├── aidis_demo.py        # Main app
+├── requirements.txt     # Python dependencies
+└── README.md            # You're here
